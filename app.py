@@ -26,6 +26,7 @@ SOURCE_BUCKET    = "raa2-image-source"           # e.g. "mkm-image-source"
 PROCESSED_BUCKET = "raa2-image-source-processed" # e.g. "mkm-image-source-processed"
 AWS_REGION = "us-east-1"
 
+
 # ── Routes ────────────────────────────────────────────────────────────────────
 
 @app.route("/", methods=["GET"])
